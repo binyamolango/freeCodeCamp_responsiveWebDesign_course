@@ -1,0 +1,53 @@
+body {
+    background-image: url(https://www.freecodecamp.org/news/content/images/2021/07/kobu-agency-ipARHaxETRk-unsplash.jpg);
+    font-family: sans-serif;
+    min-width: 350px;
+}
+
+#title {
+    margin: 0 auto;
+    font-size: 2.25rem;
+    padding: 0.125em 0;
+}
+
+#description {
+    margin: 0 auto;
+    font-size: 1.25rem;
+    padding: 0.125em 0;
+    /* width: 75%; */
+}
+
+.heading {
+    text-align: center;
+    padding: 2em 0;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: rgba(128, 128, 128, 50%);
+    margin: 0 auto;
+    min-width: 350px;
+    max-width: 750px;
+    width: 75%;
+}
+
+#survey-form {
+    display: block;
+}
+
+input, select, textarea {
+    display: block;
+}
+
+.radio-label, .check-label {
+    display: flex ;
+}
+
+#submit {
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+}
